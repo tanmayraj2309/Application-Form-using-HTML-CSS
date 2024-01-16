@@ -1,0 +1,87 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tanmay form</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<body>
+
+
+   <form action= "results.html" method="get">
+
+    <div>
+         <label for="name">Name</label>
+        <input type="text", name="name" id="name" placeholder="enter username"> 
+    </div>
+
+
+    <div style="margin-top: 10px;">
+        <label for="email"> Email</label>
+        <input type="email" name="email" id="email" placeholder="enter your email">
+    </div>
+
+
+    <div style="margin-top: 10px;">  
+        <label for="password">
+            Password
+            <input type="password" name="password"  id="password"  placeholder="enter password">
+        </label>
+    </div>
+
+    <!--
+    <div>
+            <label for="email"> Email</label>
+            <input type="email" name="email" id="email" placeholder="enter your email">
+        </div>
+        -->
+    <div style="margin-top: 10px;"> 
+        <label for="age"> age </label>
+        <input type="number" name="age" id="age" min="1" max="200">
+    </div>
+
+    <div style="margin-top: 10px;">
+        <label for="country">Country</label>
+        <select name="country" id="country">
+        <option value="India">India</option>
+        <option value="Nepal">Nepal</option>
+        <option value="Australia"> Australia</option>
+
+    </select>
+    </div>
+     
+    <div style="margin-top: 10px;">
+        <label for="date">DOB</label>
+        <input type="date" name="date" id="date">
+    </div>
+
+
+
+<div style="margin-top: 10px;">
+<input type="radio" id = "male" name="gender" value="male">
+<label for="male">Male</label>
+<input type="radio" name="gender" id="female" value="female">
+<label for="female">Female</label>
+</div>
+
+<div style="margin-top: 10px;">
+
+       <button type="reset">reset</button>
+        <button type="submit">submit</button> 
+</div>
+   
+   
+   
+    
+
+   </form>
+
+
+
+
+
+
+</body>
+</html>

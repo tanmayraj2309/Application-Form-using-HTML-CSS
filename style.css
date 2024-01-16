@@ -1,0 +1,61 @@
+
+
+
+   label {
+    color: rgb(217, 79, 79); 
+    
+  }
+
+  form{
+    margin-top: 200px;
+    margin-left: 600px;
+    border-radius: 50px;
+}
+#name{
+   
+    margin-left:30px;
+
+}
+#password{
+    margin-left: 3px;
+}
+#email{
+    margin-left: 35px;
+}
+#age{
+    margin-left: 48px;
+}
+#country{
+    margin-left: 18px;
+}
+#date{
+   margin-left: 39px;
+}
+
+
+
+
+body {
+    background-image: url(bg.jpeg);
+    font-family: Arial, sans-serif;
+    background-color: #f3b8e5;
+    /* margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; */
+  }
+
+  form {
+    position: absolute;
+    padding: 40px;
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px ;
+    border-radius: 10px;
+    min-height: 50vh;
+    background-image: url(bg4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
